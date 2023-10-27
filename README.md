@@ -8,29 +8,49 @@ A constructor in C++ is a special ‘MEMBER FUNCTION’ having the same name as 
 The syntax for defining constructor inside the class body is as follows:
 
 class CLASSNAME
+
 {
+
    ………
+   
   public :
+  
                CLASSNAME([parameter_list]) 
+               
              {
+             
                 . . . . . . 
+                
              }
+             
               . . . . . . . .
+              
 };
 
 You can also define a constructor with its declaration inside the class body and see what follows.
 
 class CLASSNAME
+
  {
+ 
  . . . . . . . . 
+ 
 public:
+
           CLASSNAME ([parameter_list]);
+          
          . . . . . . . . .
-};  
+         
+}; 
+
 CLASSNAME: :CLASSNAME([parameter_list])
+
 {
+
 . . . . . . . . . . .
+
 }
+
 
 
 # Types
